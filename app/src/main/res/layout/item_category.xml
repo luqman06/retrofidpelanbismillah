@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:padding="10dp"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/ll_layout_utama"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:text="Makan-makan"
+        android:id="@+id/keterangan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tanggal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="29 Februari 2019  " />
+
+</LinearLayout>
